@@ -75,6 +75,6 @@ export const projectCards = [
     link: "https://tiagopascoa-dev.netlify.app",
     linkDescription: "tiagopascoa-dev.netlify.app",
     gitLink: "https://github.com/tiagopascoa/my-portfolio",
-    gitLinkDescription: "/github.com/tiagopascoa/my-portfolio",
+    gitLinkDescription: "github.com/tiagopascoa/my-portfolio",
   },
 ];
