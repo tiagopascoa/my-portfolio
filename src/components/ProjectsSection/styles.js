@@ -1,10 +1,9 @@
 import styled from "styled-components/macro";
 
 export const ProjectsContainer = styled.div`
-    padding-bottom: 5rem ;
-    background: #010606;
-
-`
+  padding-bottom: 5rem;
+  background: #010606;
+`;
 
 export const PortfolioContainer = styled.div`
   min-height: calc(100vh - 80px);
@@ -26,11 +25,11 @@ export const PortfolioCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
-  &:hover {
+  /* &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-  }
+  } */
 `;
 export const ImgContainer = styled.div`
   width: 100%;
@@ -77,32 +76,32 @@ export const CardP = styled.p`
   user-select: none;
 `;
 export const CardTech = styled.p`
-font-size: 15px;
+  font-size: 15px;
   user-select: none;
 `;
 export const CardLink = styled.a`
-font-size: 15px;
+  font-size: 15px;
   user-select: none;
 `;
 
 export const CarouselDotsInactive = styled.span`
-height: 12px;
-width: 12px;
-background-color: white;
-border-radius: 50%;
-display: inline-block;
-margin: 0.5rem;
-cursor: pointer;
-&:hover {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+  cursor: pointer;
+  &:hover {
     background-color: ${({ blue_bg }) => (blue_bg ? "#6497b1" : "#52AD80")};
-}
+  }
 `;
 export const CarouselDotsActive = styled.span`
-height: 12px;
-width: 12px;
-background-color: ${({ blue_bg }) => (blue_bg ? "#6497b1" : "#52AD80")};
-border-radius: 50%;
-display: inline-block;
-margin: 0.5rem;
-cursor: pointer;
+  height: 12px;
+  width: 12px;
+  background-color: ${({ blue_bg }) => (blue_bg ? "#6497b1" : "#52AD80")};
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+  cursor: pointer;
 `;
