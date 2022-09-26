@@ -9,6 +9,7 @@ import {
   CardTech,
   CardLink,
   CardDescription,
+  LinksContainer,
 } from "./styles";
 
 const Card = ({
@@ -32,13 +33,14 @@ const Card = ({
       <CardDescription>
         <CardP>{description}</CardP>
         <CardTech>{techStack}</CardTech>
-        <CardLink href={link} target="_blank" rel="noreferrer noopener">
-          {linkDescription}
-        </CardLink>
-        <CardLink
-          href={gitLink} target="_blank" rel="noreferrer noopener">
-          {gitLinkDescription}
-        </CardLink>
+        <LinksContainer>
+          <CardLink href={link} target="_blank" rel="noreferrer noopener">
+            website
+          </CardLink>
+          <CardLink href={gitLink} target="_blank" rel="noreferrer noopener">
+            github
+          </CardLink>
+        </LinksContainer>
       </CardDescription>
     </PortfolioCard>
   );

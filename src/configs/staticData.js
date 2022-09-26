@@ -1,7 +1,7 @@
 //Assets
 import FireImage from "../assets/images/firemans_card_img.png";
 import RecipesImg from "../assets/images/recipes_card_img.png";
-import TravelersImg from "../assets/images/travelers_card_img.png";
+import TravelersImg from "../assets/images/travelers_card2.png";
 import PortfolioImg from "../assets/images/portfolio_card_img.png";
 
 export const techStack = [
@@ -28,6 +28,19 @@ export const projectCards = [
   {
     libraryClass: "item",
     dataValue: "1",
+    imgPath: TravelersImg,
+    title: "Travelers Corner",
+    description:
+      "Full-stack project. Fully responsive social media web app where authenticated users can post their travel highlights, like, comment and follow other users.",
+    techStack: "MERN Stack",
+    link: "https://travelers-corner.netlify.app/",
+    linkDescription: "travelers-corner.netlify.app/",
+    gitLink: "https://github.com/tiagopascoa/travelers-corner-FE",
+    gitLinkDescription: "github.com/tiagopascoa/travelers-corner-client",
+  },
+  {
+    libraryClass: "item",
+    dataValue: "2",
     imgPath: RecipesImg,
     title: "Our Recipes",
     description:
@@ -37,19 +50,6 @@ export const projectCards = [
     linkDescription: "our-recipes-project.herokuapp.com",
     gitLink: "https://github.com/tiagopascoa/recipes-project",
     gitLinkDescription: "github.com/tiagopascoa/recipes-project",
-  },
-  {
-    libraryClass: "item",
-    dataValue: "2",
-    imgPath: TravelersImg,
-    title: "Travelers Corner",
-    description:
-      "Full-stack project. Fully responsive social media web app where authenticated users can post their travel highlights, like, comment and follow other users.",
-    techStack: "MERN Stack",
-    link: "https://travelers-corner.netlify.app/",
-    linkDescription: "travelers-corner.netlify.app/",
-    gitLink: "https://github.com/tiagopascoa/travelers-corner-client",
-    gitLinkDescription: "github.com/tiagopascoa/travelers-corner-client",
   },
   {
     libraryClass: "item",

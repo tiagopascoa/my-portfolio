@@ -20,26 +20,34 @@ export const PortfolioCard = styled.div`
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
-  height: 475px;
+  height: 525px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
-  /* &:hover {
+  @media screen and (max-width: 480px) {
+    height: 475px;
+  }
+
+  &:hover {
     transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-  } */
+    /* transition: all 0.2s ease-in-out; */
+    cursor: grab;
+  }
 `;
 export const ImgContainer = styled.div`
   width: 100%;
-  height: 200px;
+  max-height: 250px;
   user-select: none;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   padding: 1rem;
+  border-radius: 5px;
+  @media screen and (max-width: 480px) {
+    max-height: 150px;
+  }
 `;
 export const CardImg = styled.img`
   width: 100%;
@@ -84,24 +92,37 @@ export const CardLink = styled.a`
   user-select: none;
 `;
 
-export const CarouselDotsInactive = styled.span`
-  height: 12px;
-  width: 12px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0.5rem;
-  cursor: pointer;
-  &:hover {
-    background-color: ${({ blue_bg }) => (blue_bg ? "#6497b1" : "#52AD80")};
+export const SwiperContainer = styled.div`
+  width: 100%;
+  & .swiper-pagination {
+    display: flex;
+    justify-content: center;
+  }
+  & .swiper-slide {
+    padding: 24px;
+  }
+  & .swiper-wrapper {
+    margin-bottom: 50px;
+  }
+  & .swiper-pagination-bullet-active {
+    background: ${({ blue_bg }) =>
+      blue_bg ? "#6497b1 !important" : "#52AD80 !important"};
+    height: 15px !important;
+    width: 15px !important;
+  }
+  & .swiper-pagination-bullet {
+    background: ${({ blue_bg }) =>
+      blue_bg ? "#6497b1 !important" : "#52AD80 !important"};
+    height: 15px !important;
+    width: 15px !important;
   }
 `;
-export const CarouselDotsActive = styled.span`
-  height: 12px;
-  width: 12px;
-  background-color: ${({ blue_bg }) => (blue_bg ? "#6497b1" : "#52AD80")};
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0.5rem;
-  cursor: pointer;
+
+export const LinksContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  padding-top: 20px;
 `;
