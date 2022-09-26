@@ -5,14 +5,15 @@ import TravelersImg from "../assets/images/travelers_card2.png";
 import PortfolioImg from "../assets/images/portfolio_card_img.png";
 
 export const techStack = [
-  "Javascript",
-  "React",
-  "Express",
-  "Node",
-  "MongoDB",
-  "C#",
   "HTML",
   "CSS",
+  "Javascript",
+  "React",
+  "Next.js",
+  "Express.js",
+  "Node.js",
+  "MongoDB",
+  "C#",
   "ASP.Net",
   "T-SQL",
   "SQL Server",
