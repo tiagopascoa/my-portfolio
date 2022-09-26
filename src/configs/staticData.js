@@ -23,7 +23,7 @@ export const techStack = [
 export const aboutDescription =
   "Software developer passionate about front-end technologies. Since 2020 I've decided to upgrade my skills and I've started learning about software development and how to code. Since then, I've completed several courses with 1000+ hours of classes combined and I've been immersed in learning the most recent tech stack. I'm currently working as a Front-end developer using React to build modern and scalable UI's.";
 export const googleDriveCvLink =
-  "https://drive.google.com/file/d/1Ruqe9OsvYST7nA4OIODfc2yNzPgNv4Xg/view?usp=sharing";
+  "https://drive.google.com/file/d/1cLZwT4BeupfEbEZaD7N3bANu_bdNUIVF/view?usp=sharing";
 
 export const projectCards = [
   {
