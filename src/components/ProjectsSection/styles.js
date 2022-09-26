@@ -124,5 +124,5 @@ export const LinksContainer = styled.div`
   align-items: center;
   width: 100%;
   gap: 10px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 `;

@@ -33,15 +33,15 @@ const Card = ({
       <CardDescription>
         <CardP>{description}</CardP>
         <CardTech>{techStack}</CardTech>
-        <LinksContainer>
-          <CardLink href={link} target="_blank" rel="noreferrer noopener">
-            website
-          </CardLink>
-          <CardLink href={gitLink} target="_blank" rel="noreferrer noopener">
-            github
-          </CardLink>
-        </LinksContainer>
       </CardDescription>
+      <LinksContainer>
+        <CardLink href={link} target="_blank" rel="noreferrer noopener">
+          website
+        </CardLink>
+        <CardLink href={gitLink} target="_blank" rel="noreferrer noopener">
+          github
+        </CardLink>
+      </LinksContainer>
     </PortfolioCard>
   );
 };

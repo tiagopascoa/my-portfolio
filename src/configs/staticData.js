@@ -70,7 +70,7 @@ export const projectCards = [
     imgPath: PortfolioImg,
     title: "My Portfolio",
     description:
-      "Front-end project. Fully responsive social media web app where authenticated users can post their travel highlights, like, comment and follow other users.",
+      "Front-end project. Portfolio website built with React and styled-components. Fully responsive.",
     techStack: "React | Styled Components",
     link: "https://tiagopascoa-dev.netlify.app",
     linkDescription: "tiagopascoa-dev.netlify.app",
