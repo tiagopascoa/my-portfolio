@@ -1,7 +1,0 @@
-/* Needed to overwrite library styles */
-.alice-carousel{
-    max-width: 1000px;
-}
-.alice-carousel__stage-item {
-  padding: 10px !important;
-}
