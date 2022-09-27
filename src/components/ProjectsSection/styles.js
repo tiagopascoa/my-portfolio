@@ -37,7 +37,7 @@ export const PortfolioCard = styled.div`
 `;
 export const ImgContainer = styled.div`
   width: 100%;
-  max-height: 250px;
+  height: 45%;
   user-select: none;
   display: flex;
   justify-content: center;
@@ -46,12 +46,13 @@ export const ImgContainer = styled.div`
   padding: 1rem;
   border-radius: 5px;
   @media screen and (max-width: 480px) {
-    max-height: 150px;
+    height: 35%;
+    padding: 0.5rem;
   }
 `;
 export const CardImg = styled.img`
   width: 100%;
-  height: auto;
+  height: 100%;
   user-select: none;
 `;
 
@@ -90,6 +91,19 @@ export const CardTech = styled.p`
 export const CardLink = styled.a`
   font-size: 15px;
   user-select: none;
+  color: #000000;
+  text-decoration: none;
+  background: ${({ blue_bg }) =>
+    blue_bg
+      ? "linear-gradient(to right, rgba(100, 151, 177, 1), rgba(100, 151, 177, 1)), linear-gradient(to right, rgba(186, 209, 220, 1), rgba(186, 209, 220, 1))"
+      : "linear-gradient(to right, rgba(82, 173, 128, 1), rgba(82, 173, 128, 1)), linear-gradient(to right, rgba(190, 224, 207, 1), rgba(190, 224, 207, 1))"};
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  &:hover {
+    background-size: 0 3px, 100% 3px;
+  }
 `;
 
 export const SwiperContainer = styled.div`
@@ -123,5 +137,5 @@ export const LinksContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 10px;
+  gap: 15px;
 `;

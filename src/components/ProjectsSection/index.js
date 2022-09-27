@@ -26,7 +26,9 @@ const Portfolio = () => {
     <ProjectsContainer>
       <PortfolioContainer id="projects">
         <Title id="projects">PROJECTS</Title>
-        <div style={{ maxWidth: "1100px", width: "100%", /* padding: "0 24px" */ }}>
+        <div
+          style={{ maxWidth: "1100px", width: "100%" /* padding: "0 24px" */ }}
+        >
           <SwiperContainer blue_bg={switchValue ? true : false}>
             <Swiper
               spaceBetween={20}
@@ -54,6 +56,7 @@ const Portfolio = () => {
                       linkDescription={card.linkDescription}
                       gitLink={card.gitLink}
                       gitLinkDescription={card.gitLinkDescription}
+                      blue_bg={switchValue ? true : false}
                     />
                   </SwiperSlide>
                 );

@@ -23,7 +23,9 @@ const Card = ({
   linkDescription,
   gitLink,
   gitLinkDescription,
+  blue_bg,
 }) => {
+    console.log('blue_bg: ', blue_bg)
   return (
     <PortfolioCard className={libraryClass} data-value={dataValue}>
       <ImgContainer>
@@ -32,13 +34,13 @@ const Card = ({
       <CardT>{title}</CardT>
       <CardDescription>
         <CardP>{description}</CardP>
-        <CardTech>{techStack}</CardTech>
+        <CardTech><span style={{fontWeight: "bold"}}>Stack: </span>{techStack}</CardTech>
       </CardDescription>
       <LinksContainer>
-        <CardLink href={link} target="_blank" rel="noreferrer noopener">
+        <CardLink href={link} target="_blank" rel="noreferrer noopener" blue_bg={blue_bg ? true : false}>
           website
         </CardLink>
-        <CardLink href={gitLink} target="_blank" rel="noreferrer noopener">
+        <CardLink href={gitLink} target="_blank" rel="noreferrer noopener" blue_bg={blue_bg ? true : false}>
           github
         </CardLink>
       </LinksContainer>

@@ -33,7 +33,7 @@ export const projectCards = [
     title: "Travelers Corner",
     description:
       "Full-stack project. Fully responsive social media web app where authenticated users can post their travel highlights, like, comment and follow other users.",
-    techStack: "MERN Stack",
+    techStack: "React, Node.js, Express.js, MongoDB",
     link: "https://travelers-corner.netlify.app/",
     linkDescription: "travelers-corner.netlify.app/",
     gitLink: "https://github.com/tiagopascoa/travelers-corner-FE",
@@ -46,7 +46,7 @@ export const projectCards = [
     title: "Our Recipes",
     description:
       "Full-stack project. CRUD operations. Fully responsive web app where authenticated users can create recipes, update, delete and add to favorites.",
-    techStack: "Node | Express | MongoDB | Handlebars",
+    techStack: "Handlebars, Node, Express, MongoDB",
     link: "https://our-recipes-project.herokuapp.com/",
     linkDescription: "our-recipes-project.herokuapp.com",
     gitLink: "https://github.com/tiagopascoa/recipes-project",
@@ -59,7 +59,7 @@ export const projectCards = [
     title: "Fireman's Game",
     description:
       "Game project where the goal was to apply Vanilla Javascript core concepts, using classes and objects. Pair programming. Not optimized for mobile!",
-    techStack: "Vanilla Javascript | HTML | CSS",
+    techStack: "Vanilla Javascript, HTML, CSS",
     link: "https://firemansgame.netlify.app/",
     linkDescription: "firemansgame.netlify.app",
     gitLink: "https://github.com/joaopbbezerra/game-proj",
@@ -72,7 +72,7 @@ export const projectCards = [
     title: "My Portfolio",
     description:
       "Front-end project. Portfolio website built with React and styled-components. Fully responsive.",
-    techStack: "React | Styled Components",
+    techStack: "React, Styled Components",
     link: "https://tiagopascoa-dev.netlify.app",
     linkDescription: "tiagopascoa-dev.netlify.app",
     gitLink: "https://github.com/tiagopascoa/my-portfolio",
