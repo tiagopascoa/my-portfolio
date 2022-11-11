@@ -1,8 +1,8 @@
 //Assets
 import FireImage from "../assets/images/firemans_card_img.png";
 import RecipesImg from "../assets/images/recipes_card_img.png";
-import TravelersImg from "../assets/images/travelers_card2.png";
 import PortfolioImg from "../assets/images/portfolio_card_img.png";
+import TestingWireFrames from "../assets/images/travelers_card_img.png";
 
 export const techStack = [
   "HTML",
@@ -29,7 +29,8 @@ export const projectCards = [
   {
     libraryClass: "item",
     dataValue: "1",
-    imgPath: TravelersImg,
+    imgPath: TestingWireFrames,
+    onlyDesktopImg: false,
     title: "Travelers Corner",
     description:
       "Full-stack project. Fully responsive social media web app where authenticated users can post their travel highlights, like, comment and follow other users.",
@@ -43,6 +44,7 @@ export const projectCards = [
     libraryClass: "item",
     dataValue: "2",
     imgPath: RecipesImg,
+    onlyDesktopImg: false,
     title: "Our Recipes",
     description:
       "Full-stack project. CRUD operations. Fully responsive web app where authenticated users can create recipes, update, delete and add to favorites.",
@@ -56,6 +58,7 @@ export const projectCards = [
     libraryClass: "item",
     dataValue: "3",
     imgPath: FireImage,
+    onlyDesktopImg: true,
     title: "Fireman's Game",
     description:
       "Game project where the goal was to apply Vanilla Javascript core concepts, using classes and objects. Pair programming. Not optimized for mobile!",
@@ -69,6 +72,7 @@ export const projectCards = [
     libraryClass: "item",
     dataValue: "4",
     imgPath: PortfolioImg,
+    onlyDesktopImg: false,
     title: "My Portfolio",
     description:
       "Front-end project. Portfolio website built with React and styled-components. Fully responsive.",
