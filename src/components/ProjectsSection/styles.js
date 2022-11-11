@@ -42,16 +42,13 @@ export const ImgContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
-  padding: 1rem;
-  border-radius: 5px;
   @media screen and (max-width: 480px) {
     height: 35%;
     padding: 0.5rem;
   }
 `;
 export const CardImg = styled.img`
-  width: 100%;
+  width: ${({ onlyDesktopImg }) => (onlyDesktopImg ? "70%" : "100%")};
   height: 100%;
   user-select: none;
 `;

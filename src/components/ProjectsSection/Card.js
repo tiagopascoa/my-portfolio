@@ -24,12 +24,13 @@ const Card = ({
   gitLink,
   gitLinkDescription,
   blue_bg,
+  onlyDesktopImg,
 }) => {
     console.log('blue_bg: ', blue_bg)
   return (
     <PortfolioCard className={libraryClass} data-value={dataValue}>
       <ImgContainer>
-        <CardImg src={imgPath} alt="" />
+        <CardImg src={imgPath} alt="" onlyDesktopImg={onlyDesktopImg ? true : false}/>
       </ImgContainer>
       <CardT>{title}</CardT>
       <CardDescription>

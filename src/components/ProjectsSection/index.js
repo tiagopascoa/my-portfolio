@@ -57,6 +57,7 @@ const Portfolio = () => {
                       gitLink={card.gitLink}
                       gitLinkDescription={card.gitLinkDescription}
                       blue_bg={switchValue ? true : false}
+                      onlyDesktopImg={card.onlyDesktopImg}
                     />
                   </SwiperSlide>
                 );
