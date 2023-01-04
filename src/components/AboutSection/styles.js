@@ -51,7 +51,7 @@ export const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 3rem;
   @media screen and (max-width: 768px) {
     justify-content: space-evenly;
     gap: 2rem;
@@ -80,7 +80,7 @@ export const Heading = styled.h1`
 `;
 export const AboutText = styled.p`
   font-size: 18px;
-  line-height: 24px;
+  line-height: 30px;
   color: #010606;
 `;
 export const BtnWrap = styled.div`
