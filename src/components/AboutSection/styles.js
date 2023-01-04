@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 
-export const AboutContainer = styled.div`
+export const AboutContainer = styled.section`
   background: #f9f9f9;
   display: flex;
   justify-content: center;

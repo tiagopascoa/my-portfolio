@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-export const IntroContainer = styled.div`
+export const IntroContainer = styled.section`
   background: #0c0c0c;
   display: flex;
   justify-content: center;

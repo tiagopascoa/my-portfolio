@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 
-export const ProjectsContainer = styled.div`
+export const ProjectsContainer = styled.section`
   padding-bottom: 5rem;
   background: #010606;
 `;

@@ -1,17 +1,17 @@
 import React, { useState, useContext } from "react";
 //Styles
 import {
-    IntroContainer,
-    IntroBg,
-    VideoBg,
-    IntroContent,
-    IntroH1,
-    IntroH2,
-    IntroBtnWrapper,
-    ArrowRight,
-    ArrowForward,
-  } from "./styles";
-  import { Button } from "../Shared/ButtonElement";
+  IntroContainer,
+  IntroBg,
+  VideoBg,
+  IntroContent,
+  IntroH1,
+  IntroH2,
+  IntroBtnWrapper,
+  ArrowRight,
+  ArrowForward,
+} from "./styles";
+import { Button } from "../Shared/ButtonElement";
 //Assets
 import Video from "../../assets/videos/video.mp4";
 import Video2 from "../../assets/videos/video2.mp4";
@@ -31,22 +31,30 @@ const IntroSection = () => {
   return (
     <IntroContainer id="home">
       <IntroBg>
-        <VideoBg autoPlay loop muted src={switchValue ? Video2 : Video} type="video/mp4" />
+        <VideoBg
+          autoPlay
+          loop
+          muted
+          src={switchValue ? Video2 : Video}
+          type="video/mp4"
+        />
       </IntroBg>
       <IntroContent>
         <IntroH1>Hello everyone 👋</IntroH1>
-        <IntroH2>{" "}
-                <span style={{ color: "#fff" }}>
-                  {/* Style will be inherited from the parent element */}
-                  <Typewriter
-                    words={["My name is Tiago and I'm a Software Developer!"]}
-                    /* loop={5} */
-                    cursor
-                    cursorStyle="_"
-                    typeSpeed={125}
-                    delaySpeed={1000}
-                  />
-                </span></IntroH2>
+        <IntroH2>
+          {" "}
+          <span style={{ color: "#fff" }}>
+            {/* Style will be inherited from the parent element */}
+            <Typewriter
+              words={["My name is Tiago and I'm a Software Developer!"]}
+              /* loop={5} */
+              cursor
+              cursorStyle="_"
+              typeSpeed={125}
+              delaySpeed={1000}
+            />
+          </span>
+        </IntroH2>
         <IntroBtnWrapper>
           <Button
             to="about"

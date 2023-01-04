@@ -26,7 +26,7 @@ import ProfilePictureBlue from "../../assets/images/profile_pic_blue.svg";
 //Context
 import { ThemeContext } from "../../context/ThemeContext";
 
-const AboutSection = ({ description }) => {
+const AboutSection = () => {
   const { switchValue } = useContext(ThemeContext);
   return (
     <AboutContainer id="about">
